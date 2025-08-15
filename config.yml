@@ -4,10 +4,10 @@ channels:
   - defaults
 dependencies:
   - python=3.12.8
-  - conda:
-    - pytorch==2.4.1
-    - torchvision==0.19.1
-    - pytorch::torchaudio==2.4.1
+  #- conda: # despues instalar pytorch y torchvision
+  #  - pytorch==2.4.1
+  #  - torchvision==0.19.1
+  #  - pytorch::torchaudio==2.4.1
   - pip
   - pip:
     - pyarrow==21.0.0
@@ -18,7 +18,7 @@ dependencies:
     - statsmodels==0.14.4
     - tqdm==4.64.1
     - scipy==1.14.1
-    - shap==0.35.0 # this is not the latest, but the one that works
+    # - shap==0.35.0 # this is not the latest, but the one that works
     - pickleshare==0.7.5
     - plotly==5.24.1
     - jupyter
